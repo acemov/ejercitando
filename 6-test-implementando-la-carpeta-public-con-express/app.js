@@ -8,6 +8,10 @@ const RutaDePublic = path.join(__dirname, "./public") //obtenemos la ruta comple
 app.use(express.static(RutaDePublic))
 /* con "app.use" hace que usemos archivos estaticos y "express.static" recibe una ruta
  */
+
+app.get("/",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./views/home.html"))
+})
 app.listen(3000, () => {
     console.log("El servidor esta corriendo");
 })
