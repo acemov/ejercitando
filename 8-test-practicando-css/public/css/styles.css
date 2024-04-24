@@ -1,0 +1,37 @@
+*{
+    background-color: blueviolet;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+}
+header h1{
+    background-color: black;
+    color: aqua;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline dotted aqua;
+}
+header img{
+    background-color: darkmagenta;
+}
+.caracters{
+    background-color: aqua;
+}
+.caracters header p {
+    background-color: gainsboro;
+    font-weight: bold;
+    text-align: center;
+}
+.caracters li{
+    background-color: bisque;
+}
+.caracters ol {
+    background-color: cadetblue;
+    font-weight: bold;
+}
+.description p{
+    background-color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    color: bisque;
+    line-height: 35px;
+}
