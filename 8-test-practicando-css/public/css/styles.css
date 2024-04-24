@@ -2,7 +2,9 @@
     background-color: blueviolet;
     font-family:Helvetica, sans-serif;
     font-size: 20px;
+    justify-content: center;
 }
+
 header h1{
     background-color: black;
     color: aqua;
