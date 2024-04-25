@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "express": "^4.19.2",
-    "node": "^18.20.2"
+    "node": "^18.20.2",
+    "normalice": "^1.0.1",
+    "normalize.css": "^8.0.1"
   }
 }
