@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    width: 30%;
+}
+
+.sec1 {
+    margin: auto;
+    width: 50%;
+    background-color: aquamarine;
+    border: solid black 5px;
+    padding: 2%;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+.sec2 {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    background-color: rgb(255, 206, 127);
+    border: solid black 5px;
+    padding: 2%;
+    height: 60vh;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    
+    overflow: hidden;
+}
