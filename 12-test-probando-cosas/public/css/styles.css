@@ -15,3 +15,13 @@ form{
     justify-content: center;
     margin: auto;
 }
+.div-main form{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+}
+.div-two form{
+    background-color: rgb(127, 140, 255);
+    height: 100vh;
+    width: 100%;
+}
