@@ -25,3 +25,80 @@ form{
     height: 100vh;
     width: 100%;
 }
+.div-tre form{
+    background-color: rgb(255, 127, 187);
+    height: 100vh;
+    width: 100%;
+}
+.div-five form{
+    background-color: rgb(163, 255, 151);
+    height: 100vh;
+    width: 100%;
+}
+.div-six{
+    background-color: rgb(124, 17, 138);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div-six .main-a:link{
+    background-color: bisque;
+    color: black;
+}
+.div-six .beta-a:link{
+    background-color: rgb(208, 255, 0);
+    color: rgb(46, 76, 211);
+}
+.alfa-a:hover{
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 0, 0);
+}
+.alfa-a{
+    color: rgb(207, 255, 192);
+}
+.omega-a:active{
+    background-color: rgb(255, 251, 0);
+    color: rgb(80, 170, 212);
+}
+.omega-a{
+    color: rgb(207, 255, 192);
+}
+.main-p{
+    color: bisque;
+}
+.main-p:focus{
+    background-color: aqua;
+    color: black;
+}
+.main-p {
+    position: relative; /* Asegura que el elemento ::before esté posicionado correctamente */
+}
+
+.main-p::before {
+    content: 'holaaaa'; /* Añade contenido generado */
+    position: absolute; /* Posiciona el contenido generado */
+    left: -10px; /* Ajusta la posición horizontal del contenido generado */
+    width: 6px; /* Ajusta el ancho del contenido generado */
+    height: 6px; /* Ajusta la altura del contenido generado */
+    background-color: red; /* Cambia el color del contenido generado */
+    border-radius: 50%; /* Añade bordes redondeados para que se parezca a un punto */
+    opacity: 0; /* Inicialmente oculta el contenido generado */
+    transition: opacity 0.3s; /* Agrega una transición de opacidad */
+}
+
+.main-p:focus::before {
+    opacity: 1; /* Muestra el contenido generado cuando el enlace está enfocado */
+}
+.main-text::before {
+    content: "No me podes seleccionar "; /* Contenido que se agregará antes del texto */
+    font-weight: bold; /* Hace que el texto del contenido generado sea negrita */
+    color: red; /* Cambia el color del texto del contenido generado */
+}
+.main-text::after {
+    content: " Después"; /* Contenido que se agregará después del texto */
+    font-weight: bold; /* Hace que el texto del contenido generado sea negrita */
+    color: blue; /* Cambia el color del texto del contenido generado */
+}
