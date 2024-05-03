@@ -119,7 +119,43 @@ main{
     width: 50%;
     border: 5px solid burlywood;
     border-radius: 20px;
+    padding: 5px 10px;
 }
 .fixed h1{
     font-size: 30px;
+    text-align: center;
+}
+/* - - - - - - transition - - - - - - */
+.transition{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightslategrey;
+}
+.transition button{
+    background-color: rgb(128, 128, 128);
+    border: 5px solid rgb(20, 20, 20);
+    border-radius: 15px;
+    width: 200px;
+    height: 150px;
+    margin: 400px 0;
+    transition: all 3s;
+}
+
+.transition button:hover{
+    background-color: rgb(185, 185, 185);
+    border: 5px solid rgb(104, 104, 104);
+    border-radius: 50px;
+    width: 300px;
+    height: 150px;
+    margin: 400px 0;
+    padding: 4px 5px;
+}
+
+.transition button{
+    padding: 2px;
+    transition: all 0ms;
+}
+.transition button:hover{
+    padding: 4px 5px;
 }
