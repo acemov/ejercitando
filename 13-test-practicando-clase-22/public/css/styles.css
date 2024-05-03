@@ -103,3 +103,23 @@ main{
 .relativeabsolute-again h3, .relativeabsolute-again p {
     font-size: 20px;
 }
+/* - - - - - - FIXED - - - - - - */
+.fixed, .fixed_border{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
+}
+.fixed{
+    width: 100%;
+    margin-top: 15px;
+}
+.fixed_border{
+    background-color: bisque; 
+    width: 50%;
+    border: 5px solid burlywood;
+    border-radius: 20px;
+}
+.fixed h1{
+    font-size: 30px;
+}
