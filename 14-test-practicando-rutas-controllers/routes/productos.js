@@ -1,6 +1,10 @@
 const express = require("express")
 const app = express()
 const router = express.Router()
-const firstController = require("../controllers/firstController.js")
+const productsController = require("../controllers/productsController.js")
 
-router.get("/producto/:idProducto", firstController.saludo)
+router.get("/:idProducto", productsController.producto) // http://localhost:3000/productos/3
+router.get("/:idProducto/comentarios/:idComentario?", productsController.comentario) // http://localhost:3000/productos/3/comentarios/4
+
+
+module.exports = router

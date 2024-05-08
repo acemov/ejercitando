@@ -12,15 +12,5 @@ app.listen(3000, () => {
     console.log("Open");
 });
 
-app.get("/producto/:idProducto", (req, res) => {
-    res.send("Bienvenido al detalle del producto: " + req.params.id);
-});
 
-app.get("/producto/:idProducto/comentarios/:idComentario?", (req, res) => {
-    if (req.params.idComentario == undefined) {
-        res.send("Bienvenido al detalle del producto: " +req.params.idProducto +". Pero sin comentarios"
-        );
-    } else {
-        res.send("Bienvenido al detalle del producto: " + req.params.idProducto + ". En el comentario " + req.params.idComentario);
-    }
-});
+app.use("/productos",rutasProductos) //http://localhost:3000/productos/3
