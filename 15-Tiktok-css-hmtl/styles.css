@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
-    background-color: #121212;
     color: #e7e7e7;
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #121212;
 }
 header{
     display: flex;
@@ -146,4 +148,143 @@ a span{
 }
 .tercer-section{
     padding: 16px 0px 0px 8px;
+}
+/* ------------------------------------------------------------------------ */
+main{
+    display: flex;
+}
+/* ------------------------------------------------------------------------ */
+
+.foto-grande{
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+}
+.foto-y-datos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.boton-editar-perfil{
+    background-color: #fe2c55;
+    padding: 7px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.boton{
+    width: 40px;
+    height: 40px;
+    background-color: #313131;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton i{
+    background-color: #313131 ;
+}
+.botones{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+}
+.publicaciones{
+    padding: 32px 24px 36px 24px;
+    width: 100%;
+}
+.datos{
+    margin-left: 30px;
+}
+.letras-grande{
+    font-weight: 800;
+}
+.datos p{
+    margin: 0px
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+}
+.horizontal{
+    display: flex;
+
+}
+.acomodar, .v-f-m , .r-p-m{
+    justify-content: space-between;
+}
+.v-f-m{
+    width: 30%;
+}
+.r-p-m{
+    width: 300px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #313131;
+    margin: 5px;
+}
+.r-p-m a{
+    padding: 6px 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.blanco{
+    background-color: #626262;
+    border-radius: 4px;
+}
+.c-vfm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0px 20px;
+}
+.c-vfm span{
+    width: auto;
+    padding: 0px 5px;
+}
+.videos{
+    border-bottom: 2px solid white;
+    margin-left: 0;
+}
+.circulo{
+    width: 80px;
+    height: 80px;
+    background-color:#2d2d2d;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.final p {
+    display: flex;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.gradne{
+    font-size: larger;
+    margin: 0;
+    margin-top: 24px;
+}
+.chico{
+    margin: 0;
+    margin-top: 10px;
+}
+.letras-grande{
+    font-size: 20px;
 }
