@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: #0f0f0f;
+}
+.icon{
+    height: 10px;
+}
+header, header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px 16px;
+    height: 56px;
+    z-index: 1000;
+}
+.bards{
+    padding: 8px;
+}
+.fa-bars{
+    font-size: 22px;
+}
+.l1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.l2{
+    font-size: xx-small;
+    color: #929292;
+    margin-left: 2px;
+}
+.buscador{
+    background-color: #121212;
+    border: solid 1px #303030 ;
+    border-radius: 15px;
+    
+    width: 100%;
+}
+.buscador input{
+    background-color: #121212;
+    border: none;
+    color: #929292;
+    padding: 0px 6px 0px 16px;
+}
+.buscador button{
+    background-color: #222222;
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-radius: 0px 15px 15px 0px;
+}
+.fa-magnifying-glass{
+    color: #ffffff
+}
+.microphone{
+    width: 40px;
+    height: 40px;
+    background-color:#272727 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.buscador-y-microfono{
+    width: 40%;
+    justify-content: center;
+}
+.r-n-p{
+    width: 156px;
+}
+.r-n-p img{
+    height: 32px;
+    overflow: hidden;
+    clip-path: circle(35%);
+}
+.r-n-p div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+main{
+    display: flex;
+    margin-top: 56px;
+}
+.barra-izq div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.barra-izq div span{
+    font-size: 10px;
+}
+.barra-izq{
+    width: 64px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.iamgen-wallpeper{
+    width: 100%;
+    overflow: hidden;
+    clip-path: inset(20% 30% 60% 0% round 20px);
+    position: absolute;
+    z-index: 10;
+    top: -60px;
+    left: 224px;
+}
+/* -------------------------------------------- */
+.art1{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+}
+.datos-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.foto-grande2{
+    overflow: hidden;
+    width: 35%;
+    clip-path: circle(35%);
+
+}
+.datos3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.art2 ul{
+    display: flex;
+}
+.art2{
+    width: 100%;
+}
